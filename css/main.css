@@ -439,9 +439,17 @@ td {
    Author:
    ========================================================================== */
 
+* {
+    word-break: break-all;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
 
 
-
+    /* Responsive images and crap like that */
+img,
+iframe { max-width: 100%; }
 
 
 
